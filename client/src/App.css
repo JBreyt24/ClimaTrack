@@ -1,0 +1,244 @@
+
+
+/* Body and Pages */
+
+html {
+  background-color: rgb(0, 140, 255);
+  height: 100%;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(0, 140, 255);
+}
+
+.displayOne-page {
+  padding: 35px;
+  text-align: center;
+  border-radius: 30px;
+  border-color: white;
+}
+
+/* Headers */
+
+
+h1 {
+  border-radius: 30px;
+  padding: 35px;
+  margin-bottom: 55px;
+  background-image: url('/src/assets/StockCake-Mountainous Serene Vista_1709375380.jpg');
+  background-size: cover; /* Adjusts the size of the background image to cover the entire element */
+  background-position: center;
+  color: white;
+  padding: 20px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+  font-size: 60px;
+  text-shadow: 3px 3px 5px black;
+}
+
+h2 {
+  margin-top: 80px;
+}
+
+.dashboard-location-hdr {
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin-top: 80px;
+}
+
+
+
+.displayOne-header {
+  margin: auto;
+  padding: 20px;
+}
+
+
+/* Buttons and Links */
+
+
+.sign-up-link {
+  color: rgba(255, 123, 0, 0.993);
+}
+
+.login-link{
+  color: rgba(255, 123, 0, 0.993);
+}
+
+.submit-btn {
+  background-color: rgba(255, 123, 0, 0.993);
+  margin: 5px;
+  padding: 15px;
+  width: 120px;
+  border-radius: 30px;
+  border: ridge;
+}
+
+.delete-btn {
+  background-color: red;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 30px;
+  border: ridge;
+}
+
+.logout-btn {
+  background-color: red;
+  padding: 8px;
+  margin: 10px;
+  width: 80px;
+  border-radius: 30px;
+  border: ridge;
+}
+
+.edit-btn {
+  background-color: rgba(255, 123, 0, 0.993);
+  padding: 8px;
+  margin: 10px;
+  width: 80px;
+  border: ridge;
+  border-radius: 30px;
+}
+
+.home-btn {
+  background-color: rgba(255, 123, 0, 0.993);
+  padding: 8px;
+  margin: 10px;
+  width: 80px;
+  border-radius: 30px;
+  border: ridge;
+}
+
+.add-location-btn {
+  background-color: rgba(255, 123, 0, 0.993);
+  padding: 8px;
+  margin: 10px;
+  border-radius: 30px;
+  border: ridge;
+}
+
+.details-btn {
+  background-color: rgba(255, 123, 0, 0.993);
+  padding: 8px;
+  margin: 10px;
+  width: 120px;
+  border-radius: 30px;
+  border: ridge;
+}
+
+.update-rec-btn {
+  background-color: rgba(255, 123, 0, 0.993);
+  padding: 8px;
+  margin: 10px;
+  width: 80px;
+  border-radius: 30px;
+  border: ridge;
+}
+
+
+/* Validations */
+
+
+.errors {
+  color: red;
+}
+
+
+/* Boxes and Forms */
+
+
+.display-all-bx {
+  border-radius: 30px;
+  padding: 15px;
+  margin: 15px;
+  background-color: darkblue;
+}
+
+.update-form {
+  border-radius: 30px;
+  padding: 15px;
+  margin: 10px;
+  background-color: darkblue;
+}
+
+.add-location-form{
+  border-radius: 30px;
+  padding: 15px;
+  margin: 10px;
+  background-color: darkblue;
+}
+
+.register-form {
+  border-radius: 30px;
+  padding: 15px;
+  margin: 10px;
+  background-color: darkblue;
+}
+
+.login-form {
+  border-radius: 30px;
+  padding: 15px;
+  margin: 10px;
+  background-color: darkblue;
+}
+
+.forecast-display {
+  display: flex;
+  margin: 50px;
+}
+
+.forecast-day-bx {
+  background-color: darkblue;
+  border-radius: 30px;
+  margin: 15px;
+  padding: 15px;
+  width: 1000px;
+}
+
+.display-one-main {
+  background-color: darkblue;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+.form-fields {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: rgba(255, 123, 0, 0.993);
+  border-radius: 30px;
+  border: ridge;
+}
+
+/* This makes the text boxes in the fields on the forms round */
+input[type=text], 
+input[type=email], 
+input[type=password], 
+input[type=number] {
+  border-radius: 30px;
+}
+
+
+/* Images, Logos and Sprites */
+
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
+

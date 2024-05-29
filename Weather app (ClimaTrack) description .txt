@@ -1,0 +1,32 @@
+Weather app (ClimaTrack) with full CRUD
+
+
+The idea of this app is to give users access to weather conditions as they travel or plan trips. Given that many people travel for work, this app is to help provide solution to those individuals to help stay up-to-date on weather conditions.
+
+
+The app will be built using MERN full-stack and an weather API (OpenWeather)
+
+
+MVP features
+
+- Users will be able to add mutliple locations and see the weather conditions in those locations in real time
+- Users will be able to edit and delete locations that they add
+- Upon adding locations, users can choose to see more weather details upon clicking "view details"
+- Users will be able to navigate back to the dashboard via the home button (menu navigation)
+- Upon successfully submitting the edit page, user will be redirected to the dashboard to view their added locations (menu navigation)
+- Upon deleteing a location, users will be redirected to the dashboard (menu navigation)
+- Will utilize an API to gather weather info
+
+Bonus Features
+
+- Users will have to register to use the app
+- Validations will be put in place so that users will have to meet specific requirements for registering
+- Upon successfully registering, users will have to login using the provided creditials submitted via registering
+- Validations will be put in place so that users have to login with a already registered email
+
+(Bonus features are "stretch goals" and are not part of the main app. If time permits, then bonus features will be implemented)
+
+
+GitHub link:
+
+https://github.com/JBreyt24/Solo-Project-Weather-App
